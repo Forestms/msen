@@ -35,7 +35,7 @@ var WSNRTConnect = function(myZCloudID, myZCloudKey) {
 		thiz.wsc.close();
 	};
 	thiz.connect = function() {
-		thiz.wsc = new WebSocket('ws://'+thiz.saddr);
+		thiz.wsc = new WebSocket('ws://'+'api.zhiyun360.com:28080');
 		thiz.wsc.onopen = function(event) {
 			var auth = {
 				method:"authenticate",
