@@ -11,7 +11,7 @@ var WSNRTConnect = function(myZCloudID, myZCloudKey) {
 	var thiz = this;
 	thiz.uid = myZCloudID;
 	thiz.key = myZCloudKey;
-	thiz.saddr = 'api.zhiyun360.com:28083';
+	thiz.saddr = "api.zhiyun360.com:28080";
 	
 	thiz.onConnect = null;
 	thiz.onConnectLost = null;
