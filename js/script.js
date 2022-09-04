@@ -68,10 +68,10 @@ $(function () {
             $("#currentGQ").text(hum + "LUX");                   // 在页面显示湿度数据
           
           if (hum < 10) {
-              $('#btn_img').attr('src','images/light-open.gif');  //根据光强决定是否开灯
+              $('#btn_img').attr('src','images/Light-open.gif');  //根据光强决定是否开灯
               rtc.sendMessage(DemoMac1, "{OD1=16,D1=?}"); 
             } else {
-              $('#btn_img').attr('src','images/light-close.png')
+              $('#btn_img').attr('src','images/Light-close.png')
               rtc.sendMessage(DemoMac1, "{CD1=16,D1=?}"); 
              }
         }
