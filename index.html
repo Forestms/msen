@@ -1,0 +1,116 @@
+<!DOCTYPE html >
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/index.css">
+<title>猫舍宠物监控系统</title>
+</head>
+<body>
+  <!-- 页头 -->
+  <div class="header">
+    <div>
+      <div>
+        <h1>猫舍宠物监控系统</h1>
+      </div>
+      <div id="ConnectState">数据服务连接中...</div>
+    </div>
+  </div>
+  <!-- 页中 -->
+  <div class="main">
+   <table>
+    <tr>
+      <td>
+    <div class="a">
+      <div>当前温度：</div>
+      
+      <img class="zz" src="images/wendu.png">
+    
+      <div id="currentTem">--℃</div>
+    </div>
+     </td>
+     <td>
+    <div class="s">
+      <div>当前湿度：</div>
+      <img class="xx" src="images/shidu.png">
+      <div id="currentHum">--%</div>
+    </div>
+    </td>
+    <td>
+     <div class="d">
+      <div>当前气压：</div>
+      <img class="cc" src="images/yaqiang.png">
+      <div id="currentAP">--PA</div>
+    </div>
+    </td>
+    <td>
+    <div class="f">
+      <div>当前光强：</div>
+      <img class="vv" src="images/guangzhao.png">
+      <div id="currentGQ">--LUX</div>
+    </div>
+    </td>
+    <td>
+    <div class="g">
+      <div>当前空气质量：</div>
+      <img class="bb" src="images/kongzhi.png">
+      <div id="currentKQ">--PM</div>
+    </div>
+  </td>
+   </tr>
+   <tr>
+    <td>
+  <div class="h">
+      <div>灯光状态：</div>
+      <img class="nn" id="btn_img" src="images/light-close.png" alt=""/>
+    </div>
+</td>
+<td>
+  <div class="j">
+    <div>警报状态：</div>
+      <img  class="mm" id="btn_img1" src="images/Alarm.png" alt=""/>
+    </div>
+
+</td>
+<td>
+  <div class="k">
+    <div>风扇状态：</div>
+      <img  class="pp" id="btn_img2" src="images/Fan-off.png" alt=""/>
+    </div>
+
+</td>
+
+   </tr>
+   <tr>
+    <td>
+  <div class="p">
+      <div>食物剩余状态：</div>
+      <img class="ii" id="btn_img3" src="images/rgb-off.png" alt=""/>
+    </div>
+</td>
+<td>
+  <div class="o">
+    <div>水剩余状态：</div>
+      <img  class="oo" id="btn_img4" src="images/rgb-off.png" alt=""/>
+    </div>
+
+</td>
+<td>
+  <div class="u">
+    <div>有无人员接近：</div>
+      <img  class="uu" id="btn_img0" src="images/Alarm.png" alt=""/>
+    </div>
+
+</td>
+
+   </tr>
+
+   </table>
+    
+  <!--引入js-->
+  <script  src="js/jquery-1.11.0.min.js"></script>
+
+  <script  src="js/WSN/WSNRTConnect.js"></script>
+  <script  src="js/script.js"></script>
+</body>
+</html>

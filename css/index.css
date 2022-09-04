@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 页头 */
+.header {
+    width: 100%;
+    background-color: #323a45;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header>div {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* 页中 */
+.main {
+    width: 100%;
+    height: 180vh;
+    background-color: skyblue;
+}
+
+.main>div {
+    display: flex;
+    
+    margin-top: 18vh;
+    font-size: 4rem;
+    color: rgb(0, 171, 238);
+}
+.a{
+    font-size: 4rem;
+    margin-top: 5vh;
+    margin-left: 18vh;
+
+}
+.s{
+    font-size: 4rem;
+    margin-top: 5vh;
+    margin-left: 18vh;
+}
+.d{
+    font-size: 4rem;
+    margin-top: 5vh;
+    margin-left: 18vh;
+}
+.f{
+    font-size: 4rem;
+    margin-top: 5vh;
+    margin-left: 18vh;
+}
+.g{
+    font-size: 4rem;
+    margin-top: 5vh;
+    margin-left: 18vh;
+}
+.h{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.j{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.k{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.p{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.o{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.u{
+    font-size: 4rem;
+    margin-top: 8vh;
+    margin-left: 18vh;
+}
+.zz{
+    width: 18vh;
+    height: 18vh;
+}
+.xx{
+    width: 18vh;
+    height: 18vh;
+}
+.cc{
+    width: 18vh;
+    height: 18vh;
+}
+.vv{
+    width: 18vh;
+    height: 18vh;
+}
+.bb{
+    width: 18vh;
+    height: 18vh;
+}
+.nn{
+    width: 18vh;
+    height: 18vh;
+}
+.mm{
+    width: 18vh;
+    height: 18vh;
+}
+.pp{
+    width: 18vh;
+    height: 18vh;
+}
+.oo{
+    width: 18vh;
+    height: 18vh;
+}
+.ii{
+    width: 18vh;
+    height: 18vh;
+}
+.uu{
+    width: 18vh;
+    height: 18vh;
+}
+/* 页尾 */
+.footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-size: 12px;
+    background-color: #323a45;
+    color: #fff;
+    text-align: center;
+}
